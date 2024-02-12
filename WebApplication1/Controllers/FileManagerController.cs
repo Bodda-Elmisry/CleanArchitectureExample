@@ -9,10 +9,13 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class FileManagerController : Controller
     {
-        private readonly IClientFileManager _clientFileManager;
-        public FileManagerController(IClientFileManager clientFileManager)
+        private readonly IPostClientFileManager _postClientFileManager;
+        private readonly IGetClientFileManager _getClientFileManager;
+        public FileManagerController(IPostClientFileManager postClientFileManager, 
+                                     IGetClientFileManager getClientFileManager)
         {
-            _clientFileManager = clientFileManager;
+            _postClientFileManager = postClientFileManager;
+            _getClientFileManager = getClientFileManager;
         }
 
 
@@ -29,14 +32,14 @@ namespace WebApplication1.Controllers
         [HttpGet("GetFiles")]
         public IActionResult GetFiles()
         {
-            var filesList = _clientFileManager.GetFiles();
+            var filesList = _getClientFileManager.GetFiles();
             return Ok(filesList);
         }
 
         [HttpGet("GetFileByID")]
         public IActionResult GetFileById(int id)
         {
-            var file = _clientFileManager.GetFile(id);
+            var file = _getClientFileManager.GetFile(id);
             return Ok(file);
         }
 
@@ -45,7 +48,7 @@ namespace WebApplication1.Controllers
         {
             try
             {
-                _clientFileManager.CreateFile(file);
+                _postClientFileManager.CreateFile(file);
                 return Ok();
             }
             catch (Exception ex)

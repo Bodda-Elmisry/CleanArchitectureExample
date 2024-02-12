@@ -9,20 +9,12 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Services
 {
-    public class ClientFileManager : IClientFileManager
+    public class GetClientFileManager : IGetClientFileManager, IClientFileManagerBase
     {
-        private readonly IClientFileRepository _clientFileRepository;
-        public ClientFileManager(IClientFileRepository clientFileRepository)
+        private readonly IGetClientFileRepository _clientFileRepository;
+        public GetClientFileManager(IGetClientFileRepository clientFileRepository)
         {
             _clientFileRepository = clientFileRepository;
-        }
-        public bool CreateFile(ClientFile file)
-        {
-            if (!IsFileExist(file.Id))
-            {
-                _clientFileRepository.Inert(file);
-            }
-            return true;
         }
 
         public ClientFile GetFile(int id)

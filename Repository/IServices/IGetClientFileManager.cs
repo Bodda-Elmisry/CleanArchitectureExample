@@ -7,15 +7,13 @@ using System.Threading.Tasks;
 
 namespace Repository.IServices
 {
-    public interface IClientFileManager
+    public interface IGetClientFileManager
     {
         ClientFile GetFile(int id);
 
         IEnumerable<ClientFile> GetFiles();
 
-        bool IsFileExist(int id);
-
-        bool CreateFile(ClientFile file);
+        
 
     }
 }

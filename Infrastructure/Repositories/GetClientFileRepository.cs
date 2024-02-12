@@ -12,18 +12,13 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Repositories
 {
-    public class ClientFileRepository : IClientFileRepository
+    public class GetClientFileRepository : IGetClientFileRepository
     {
         private readonly AppDbContext context;
 
-        public ClientFileRepository(AppDbContext context)
+        public GetClientFileRepository(AppDbContext context)
         {
             this.context = context;
-        }
-
-        public void Delete(ClientFile entity)
-        {
-            context.ClientsFiles.Remove(entity);
         }
 
         public ClientFile FiendByID(int id)
@@ -39,19 +34,6 @@ namespace Infrastructure.Repositories
         public IEnumerable<ClientFile> GetAll()
         {
             return context.ClientsFiles.ToList();
-        }
-
-        public void Inert(ClientFile entity)
-        {
-            context.ClientsFiles.Add(entity);
-            context.SaveChanges();
-        }
-
-        public async Task<ClientFile> Update(ClientFile entity)
-        {
-            context.ClientsFiles.Update(entity);
-            await Task.Run(() => context.SaveChanges());
-            return entity;
         }
     }
 }

@@ -93,3 +93,14 @@ F:\Win Old 22-11-2023\Projects\WebApplication1\WebApplication1\bin\Debug\net6.0\
 F:\Win Old 22-11-2023\Projects\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 F:\Win Old 22-11-2023\Projects\WebApplication1\WebApplication1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 F:\Win Old 22-11-2023\Projects\WebApplication1\WebApplication1\bin\Debug\net6.0\AutoMapper.dll
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\WebApplication1\obj\Debug\net6.0\WebApplication1.sourcelink.json
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb

@@ -16,8 +16,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddScoped<IClientFileRepository, ClientFileRepository>();
-builder.Services.AddScoped<IClientFileManager, ClientFileManager>();
+builder.Services.AddScoped<IPostClientFileRepository, PostClientFileRepository>();
+builder.Services.AddScoped<IGetClientFileRepository, GetClientFileRepository>();
+builder.Services.AddScoped<IPostClientFileManager, PostClientFileManager>();
+builder.Services.AddScoped<IGetClientFileManager, GetClientFileManager>();
 
 var app = builder.Build();
 

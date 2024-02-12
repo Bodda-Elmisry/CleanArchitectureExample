@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository.IRepositories
 {
-    public interface IClientFileRepository : ICustomService<ClientFile>
+    public interface IPostClientFileRepository : IPostCustomService<ClientFile>, ICustomServiceBase<ClientFile>
     {
     }
 }

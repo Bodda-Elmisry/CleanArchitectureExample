@@ -7,14 +7,9 @@ using System.Threading.Tasks;
 
 namespace Repository.ICustomServices
 {
-    public interface ICustomService <T>
+    public interface IGetCustomService <T>
     {
         IEnumerable<T> GetAll();
         T FiendByID(int id);
-
-        int GetCount(Expression<Func<T, bool>> expression);
-        void Inert(T entity);
-        Task<T> Update(T entity);
-        void Delete(T entity);
     }
 }

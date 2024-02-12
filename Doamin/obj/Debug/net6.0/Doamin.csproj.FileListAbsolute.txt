@@ -9,3 +9,15 @@ F:\Win Old 22-11-2023\Projects\WebApplication1\Doamin\obj\Debug\net6.0\Doamin.dl
 F:\Win Old 22-11-2023\Projects\WebApplication1\Doamin\obj\Debug\net6.0\refint\Doamin.dll
 F:\Win Old 22-11-2023\Projects\WebApplication1\Doamin\obj\Debug\net6.0\Doamin.pdb
 F:\Win Old 22-11-2023\Projects\WebApplication1\Doamin\obj\Debug\net6.0\ref\Doamin.dll
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\bin\Debug\net6.0\Doamin.deps.json
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\bin\Debug\net6.0\Doamin.dll
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\bin\Debug\net6.0\Doamin.pdb
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\obj\Debug\net6.0\Doamin.GeneratedMSBuildEditorConfig.editorconfig
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\obj\Debug\net6.0\Doamin.AssemblyInfoInputs.cache
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\obj\Debug\net6.0\Doamin.AssemblyInfo.cs
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\obj\Debug\net6.0\Doamin.csproj.CoreCompileInputs.cache
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\obj\Debug\net6.0\Doamin.sourcelink.json
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\obj\Debug\net6.0\Doamin.dll
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\obj\Debug\net6.0\refint\Doamin.dll
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\obj\Debug\net6.0\Doamin.pdb
+F:\Win Old 22-11-2023\Projects\CleanArchitectureExample\Doamin\obj\Debug\net6.0\ref\Doamin.dll
